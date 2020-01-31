@@ -1,16 +1,16 @@
 import React, { useContext } from 'react'
-import {MovieContext} from '../Contexts/MovieContext'
+import { MovieContext } from '../Contexts/MovieContext'
 import '../Styles/nav.css'
 
 
 const Navbar = () => {
-    const [movies, setMovies] = useContext(MovieContext)
+    const [movies] = useContext(MovieContext)
 
     let styles = {
         float: 'right',
-        'padding-right': '10px',
+        paddingRight: '10px',
     }
-    return(
+    return (
         <ul>
             <li> Home </li>
             <li style={styles}> Number of movies: {movies.length} </li>

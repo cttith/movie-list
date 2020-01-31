@@ -1,0 +1,10 @@
+.modal-add-movie{
+    /* width:20%;
+    height:20%;
+    margin: auto;
+    position: absolute; */
+    display: 'flex';
+    alignItems: 'center';
+    justifyContent: 'center';
+    background-color: red;
+}
