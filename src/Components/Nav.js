@@ -8,12 +8,13 @@ const Navbar = () => {
 
     let styles = {
         float: 'right',
+        justifyContent: 'center',
+        color: 'white',
         paddingRight: '10px',
     }
     return (
         <ul>
-            <li> Home </li>
-            <li style={styles}> Number of movies: {movies.length} </li>
+            <p style={styles}> Number of movies: {movies.length} </p>
         </ul>
     )
 

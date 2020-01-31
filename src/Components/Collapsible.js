@@ -22,7 +22,7 @@ const Collapsible = ({ title, price }) => {
                         <Typography> {title} </Typography>
                     </ExpansionPanelSummary>
                     <ExpansionPanelDetails>
-                        <Typography> {price} </Typography>
+                        <Typography> ${price} </Typography>
                     </ExpansionPanelDetails>
                 </ExpansionPanel>
             </div>
