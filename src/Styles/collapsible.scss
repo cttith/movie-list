@@ -1,0 +1,14 @@
+// js calculated height - most accurate
+.panel{
+    .panel-heading {
+        cursor:pointer;
+    }
+    .panel-collapse {
+        overflow: hidden;
+        transition: heighjt 0.3s ease-out;
+    }
+    .panel-body {
+        border: none !important;
+    }
+    h2 {margin-top: 5px !important;}
+}
